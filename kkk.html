@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <title>Менің алғашқы сайтымыз</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #eef2f3;
+            color: #2c3e50;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .main-container {
+            background: white;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        header {
+            border-bottom: 3px solid #3498db;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 2px solid #3498db;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .highlight { color: #e74c3c; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="main-container">
+    <header>
+        <h1 align="center">HTML Сабағы: Тегтер жинағы</h1>
+    </header>
+
+    <p>Бұл бетте тақтада жазылған барлық тегтер қолданылған. Біз мұнда мәтінді форматтауды, тізімдерді және кестелерді үйренеміз.</p>
+
+    <hr> <h3>Мәтінмен жұмыс (Форматтау):</h3>
+    <p>
+        <b>Жуан мәтін (B тегі)</b><br> <i>Көлбеу мәтін (I тегі)</i><br>
+        <u>Асты сызылған (U тегі)</u><br>
+        <s>Сызылған мәтін (S тегі)</s><br>
+        <big>Үлкен мәтін (Big)</big> және <small>Кіші мәтін (Small)</small>
+    </p>
+
+    <p>Математикалық белгілер: <b>a<sup>2</sup></b> + <b>b<sup>2</sup></b> = <b>c<sup>2</sup></b></p>
+    <p>Химиялық белгілер: Судың формуласы - <b>H<sub>2</sub>O</b></p>
+
+    <hr>
+
+    <h3>Тізім түрлері:</h3>
+    <div style="display: flex; justify-content: space-around;">
+        <ul>
+            <caption>Реттелмеген тізім (UL)</caption>
+            <li>Алма</li>
+            <li>Алмұрт</li>
+            <li>Өрік</li>
+        </ul>
+        <ol>
+            <caption>Реттелген тізім (OL)</caption>
+            <li>Бірінші қадам</li>
+            <li>Екінші қадам</li>
+            <li>Үшінші қадам</li>
+        </ol>
+    </div>
+
+    <hr>
+
+    <h3>Мәліметтер кестесі:</h3>
+    <table border="1">
+        <caption>Оқушылар туралы ақпарат</caption>
+        <thead>
+            <tr>
+                <th>Аты-жөні</th>
+                <th>Пәні</th>
+                <th>Бағасы</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Асхат Ермеков</td>
+                <td>Информатика</td>
+                <td>5 (Өте жақсы)</td>
+            </tr>
+            <tr>
+                <td>Диана Сапарова</td>
+                <td>Бағдарламалау</td>
+                <td>4 (Жақсы)</td>
+            </tr>
+            <tr>
+                <td>Мұрат Әлиев</td>
+                <td>Дизайн</td>
+                <td>5 (Өте жақсы)</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
